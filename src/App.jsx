@@ -28,6 +28,14 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
+
+
+      <div className="mockup-browser border bg-base-300">
+  <div className="mockup-browser-toolbar">
+    <div className="input">https://daisyui.com</div>
+  </div>
+  <div className="flex justify-center px-4 py-16 bg-base-200">Hello!</div>
+</div>
     </>
   )
 }
