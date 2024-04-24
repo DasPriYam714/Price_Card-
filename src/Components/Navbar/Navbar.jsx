@@ -23,11 +23,9 @@ const Navbar = () => {
             <RiMenu2Fill></RiMenu2Fill>
           )}
         </div>
-        <div>
-          <h2 className="text-cyan-600 text-2xl ">Price Card</h2>
-        </div>
-
-        <div>
+        <div className="flex justify-between items-center">
+          <h2 className="text-cyan-600 text-2xl p-3 ">Price Card</h2>
+          <div >
           <ul
             className={`absolute    md:flex  bg-slate-50 ${
               open ? "" : "hidden"
@@ -38,6 +36,9 @@ const Navbar = () => {
             ))}
           </ul>
         </div>
+        </div>
+
+        
       </div>
     </div>
   );
