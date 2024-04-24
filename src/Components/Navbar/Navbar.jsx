@@ -31,7 +31,7 @@ const Navbar = () => {
           <ul
             className={`absolute    md:flex  bg-slate-50 ${
               open ? "" : "hidden"
-            } px-5`}
+            } md: static px-5`}
           >
             {routes.map((route) => (
               <Route key={route.id} route={route}></Route>
